@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: none; /* for Firefox */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+*::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#root {
+  overflow: visible;
+}
+
+section, div {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#root {
+  overflow-x: hidden;
+}
+
+
+body {
+  background-color: #050507;
+  color: #EAEAEA;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, rgba(0,255,255,0.01) 1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(0,255,255,0.01) 1px, transparent 1px);
+  background-size: 40px 40px;
+  scroll-behavior: smooth;
+}
+
+
+
+.neon-text {
+  text-shadow: 0 0 4px rgba(0,255,255,0.4), 0 0 10px rgba(0,255,255,0.2);
+}
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  background-color: rgb(32, 115, 170);
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 80%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.back-to-top:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+
+
+@keyframes glowPulse {
+  0%, 100% { text-shadow: 0 0 5px rgba(0,255,255,0.4); }
+  50% { text-shadow: 0 0 15px rgba(0,255,255,0.25); }
+}
+
+
+.glow-text {
+  animation: glowPulse 2s infinite ease-in-out;
 }
