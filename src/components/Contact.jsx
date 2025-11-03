@@ -70,7 +70,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-sm text-gray-300">Email</div>
-                <div className="text-sm font-medium">rhythmln1104@gmail.com</div>
+                <div className="text-sm font-medium">rohangupta10702@gmail.com</div>
               </div>
             </div>
 
@@ -80,7 +80,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-sm text-gray-300">Phone</div>
-                <div className="text-sm font-medium">+91 9122577181</div>
+                <div className="text-sm font-medium">+91 7319976099</div>
               </div>
             </div>
 
@@ -161,7 +161,7 @@ export default function Contact() {
                 </button>
 
                 <div className="text-sm text-gray-400">
-                  Or email me directly at <span className="text-cyan-300">rhythmln1104@gmail.com</span>
+                  Or email me directly at <span className="text-cyan-300">rohangupta10702@gmail.com</span>
                 </div>
               </div>
             </form>

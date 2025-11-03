@@ -5,22 +5,14 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import WaveDivider from "./WaveDivider";
 
 const projects = [
-  {
-    title: "CodePup AI",
-    category: "Frontend",
-    description:
-      "A modern AI-powered landing page built for a startup. Smooth animations, responsive layout, and interactive UI with React + Tailwind.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    live: "https://codepup-ai.vercel.app/",
-    github: "https://github.com/Rhythm-inCode/CodePup",
-  },
+  
   {
     title: "SubSplit",
     category: "Full Stack",
     description:
       "A web platform to share and split subscriptions securely. Built with Node.js, Express, and MongoDB with dynamic pricing logic.",
     tech: ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JS"],
-    github: "https://github.com/Rhythm-inCode/SubSplit",
+    
   },
   {
     title: "Online Tuition Website",

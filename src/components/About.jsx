@@ -23,7 +23,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.8 }}
       >
-        Hey there, I’m <span className="text-cyan-400 font-semibold">Rhythm Singh</span> — 
+        Hey there, I’m <span className="text-cyan-400 font-semibold">Rohan Gupta</span> — 
         a passionate <span className="text-purple-400">Full Stack Developer</span> who loves crafting
         sleek, high-performance web experiences.  
         My world revolves around building scalable systems, aesthetic UIs, and solving problems that 

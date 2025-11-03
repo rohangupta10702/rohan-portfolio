@@ -37,7 +37,7 @@ const Navbar = () => {
             })
           }
         >
-          Rhythm<span className="text-white">.</span>
+          Rohan<span className="text-white">.</span>
         </motion.h1>
 
         {/* Desktop Menu */}

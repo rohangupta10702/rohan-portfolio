@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa";
 import profilePic from "../assets/profile.webp";
-import resumeFile from "../assets/Rhythm_Singh_Resume.pdf";
+import resumeFile from "../assets/My_resume.pdf";
 
 
 export default function Hero() {
@@ -21,7 +21,7 @@ export default function Hero() {
         src={profilePic}
         loading="lazy"
         decoding="async"
-        alt="Rhythm Singh"
+        alt="Rohan Gupta"
         className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-cyan-400/40 shadow-neon mb-6 object-cover object-center"
 
         initial={{ opacity: 0, scale: 0.7 }}
@@ -46,7 +46,7 @@ export default function Hero() {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="text-4xl sm:text-6xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-200 to-fuchsia-300 drop-shadow-[0_0_8px_rgba(0,255,255,0.15)] text-center leading-[1.15] pb-2 select-none"
       >
-        Rhythm Singh
+        Rohan Gupta
       </motion.h1>
 
       {/* Description */}
@@ -96,7 +96,7 @@ export default function Hero() {
         className="mt-10 flex gap-8 text-2xl"
       >
         <a
-          href="https://github.com/Rhythm-inCode"
+          href="https://github.com/rohangupta10702"
           target="_blank"
           rel="noreferrer"
           className="hover:text-cyan-400 transition-transform hover:scale-110"
@@ -104,7 +104,7 @@ export default function Hero() {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/rhythm-singh-b2a6ab250/"
+          href="https://www.linkedin.com/in/rohangupta10702/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-fuchsia-400 transition-transform hover:scale-110"
@@ -112,7 +112,7 @@ export default function Hero() {
           <FaLinkedin />
         </a>
         <a
-          href="mailto:rhythmln1104@gmail.com"
+          href="mailto:rohangupta10702@gmail.com"
           className="hover:text-purple-400 transition-transform hover:scale-110"
         >
           <FaEnvelope />

@@ -14,7 +14,7 @@ const Footer = () => {
         <div>
           <a href="#home">
           <h2 className="text-neon font-semibold text-xl mb-3">
-            Rhythm<span className="text-white">.</span>
+            Rohan<span className="text-white">.</span>
           </h2>
           </a>
           <p className="text-sm leading-relaxed text-gray-400/90">
@@ -23,13 +23,13 @@ const Footer = () => {
           </p>
           <div className="flex gap-5 mt-4 text-xl">
             <a
-              href="mailto:rhythmln1104@gmail.com"
+              href="mailto:rohangupta@gmail.com"
               className="hover:text-neon transition-all"
             >
               <FaEnvelope />
             </a>
             <a
-              href="https://github.com/Rhythm-inCode"
+              href="https://github.com/rohangupta10702"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-neon transition-all"
@@ -37,7 +37,7 @@ const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/rhythm-singh-b2a6ab250/"
+              href="https://www.linkedin.com/in/rohangupta10702/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-neon transition-all"
@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-800 text-center py-4 text-xs text-gray-500 tracking-wide">
-        © {new Date().getFullYear()} Rhythm | Crafted with discipline & caffeine.
+        © {new Date().getFullYear()} Rohan | Crafted with discipline & caffeine.
       </div>
       <a href="#home" class="back-to-top">
   ↑
